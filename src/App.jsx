@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './component/card'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum expedita delectus impedit laborum minus enim incidunt fugiat. Doloremque maiores laborum perferendis officiis consequuntur blanditiis ab dicta nisi, eligendi, iure earum.</p>
 
       </div>
+      {Card()}
     </div>
   )
 }
